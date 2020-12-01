@@ -4,4 +4,9 @@ h1, p {
 
 em, strong {
     background-color: #B2D6FF;
+    display: inline;
+}
+
+h1 {
+    padding: 50px;
 }
