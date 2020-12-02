@@ -18,7 +18,11 @@ p {
 
 p {
     padding: 20px 0 20px 10px;   /* Top Right Bottom Left */
-}
+
+    margin: 25px;
+    margin-bottom: 50px;
+}   
+
 
 p {
    padding: 20px 0 20px 10px;
