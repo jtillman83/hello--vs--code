@@ -13,13 +13,18 @@ h1 {
 }
 
 p {
-    padding: 20px 10px; /*Vertical Horizontal */
+    padding: 20px 0 10px; /*Vertical Horizontal */
+
+    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 p {
     padding: 20px 0 20px 10px;   /* Top Right Bottom Left */
 
     margin: 25px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }   
 
@@ -37,4 +42,14 @@ h1 {
 
 strong {
     margin: 50px;
+}
+
+div {
+    color: #fff;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
 }
