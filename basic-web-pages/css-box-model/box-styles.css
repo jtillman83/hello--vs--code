@@ -30,9 +30,9 @@ p {
 
 
 p {
-   padding: 20px 0 20px 10px;
+   padding: 20px 0 20px 10px;  /* Add this */ 
    margin-top: 25px;
-   margin-bottom: 50px;  /* Add this */ 
+   margin-bottom: 50px;  
 }
 
 h1 {
