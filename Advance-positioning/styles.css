@@ -25,5 +25,17 @@
   .item img {
     display: block;
   }
+
+  .item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  } 
+  
+  .item-absoulute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
    
   
