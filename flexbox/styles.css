@@ -5,20 +5,20 @@
 }
 
 .menu-container {
-  /* ... */
+  color: #fff;
+  background-color: #5995da;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
 .menu {
-  border: 1px solid #fff;
   width: 900px;
   display: flex;
   justify-content: space-between;
 }
 
 .links {
-  border: 1px solid #fff;
   display: flex;
   justify-content: flex-end;
 }
@@ -39,23 +39,27 @@
   height: 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.social,
-.logo,
-.subsribe {
-  border: 1px solid #5995da;
-}
-
-photo-grid-container {
+.photo-grid-container {
   display: flex;
   justify-content: center;
 }
 
-photo-grid {
-  /* ... */
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
 }
 
 .first-item {
@@ -67,7 +71,7 @@ photo-grid {
 }
 
 .social,
-.subscribe {
+.subscribe{
   align-self: flex-end;
   margin-bottom: 20px;
 }
@@ -78,23 +82,32 @@ photo-grid {
 }
 
 .footer-item {
-  border: 1px solid #fff;
-  background-color: #d6e9fe;
-  height: 200px;
-  flex: 1;
-}
-
-.footer-three {
-  flex: 2;
+ border: 1px solid #fff;
+ background-color: #d6e9fe;
+ height: 200px;
+ flex: 1; 
 }
 
 .footer-one,
 .footer-three {
-background-color: #5995da;
-flex: initial;
-width: 300px;
+  background-color: #5995da;
+  flex: initial;
+  width: 300px;
 }
 
 .signup {
   margin-left: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
